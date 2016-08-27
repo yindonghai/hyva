@@ -1,0 +1,416 @@
+body{ font-family:Arial,"微软雅黑"; position:relative; font-size: 12px;
+  font-size: 1.2rem;}
+ul,li{ list-style:none; padding:0;}
+
+/*正品验证*/
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  height: 0px;
+  line-height: 0px;
+  font-size: 0px;
+  clear: both;
+  display: block;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+/* body {
+  font-family: "Comic Sans MS", "幼圆", "黑体", sans-serif;
+  padding: 0px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  
+} */
+.all{
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.all .logo{
+  width:45%;
+  margin:3em auto;
+}
+.all .logo img{
+  width:100%;
+}
+.all .code_form{
+  width:100%;
+  margin:0 auto;
+}
+.all .code_form .input_wrap {
+  display:block;
+  width:90%;
+  margin:0 auto;
+  height:40px;
+  line-height: 40px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  overflow: hidden;
+  position: relative;
+  background: #eee;
+  border:1px solid #eeeeee;
+  box-sizing:border-box;
+}
+.all .code_form .input_wrap .iconbox{
+  position: absolute;
+  top:5px;
+  right:5px;
+  z-index: 10;
+  display:block;
+  width:30px;
+  height:30px;
+  background:url('../images/icon_03.png') no-repeat 98% center;
+  background-size: 100%;
+}
+.all .code_form input{
+  position: absolute;
+  z-index: 9;
+  width:85%;
+  height:40px;
+  line-height:40px;
+  border:none;
+  background: #eee;
+  box-sizing:border-box;
+  padding:0 10px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.all .code_form .tipbox{
+  padding-top:4rem;
+  text-align: center;
+  width:90%;
+  margin:0 auto;
+}
+.all .code_form .tipbox h3{
+  margin-bottom:1.4rem;
+  font-size: 1.5rem;
+  color:#949292;
+}
+.all .code_form .tipbox p{
+  font-size: 1.4rem;
+}
+
+.all .code_form button{
+  display: block;
+  width:50%;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  -webkit-border-radius:5px;
+  -ms-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  background: #0068b7;
+  margin:5rem auto;
+  border:none;
+}
+
+
+
+
+
+.all .container{
+  width:94%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.all .container h2{
+  margin:3rem auto 1rem; 
+  color: #c51c1c;
+  font-size: 2.4rem;
+}
+.all .container p{
+  font-size: 1.6rem;
+  color:#5a5a5c
+}
+.all .container p a{
+  color:#333;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.all .container .imgs{
+  display: block;
+  width:50%;
+  margin:3.5rem auto 1rem;
+}
+.all .container .imgs img{
+  width:100%;
+}
+
+.all .container label{
+  width:100%;
+  font-size: 2.4rem;
+  color:#919191;
+  text-align: center;
+  display: block;
+  margin:2rem auto;
+}
+.all .container input{
+  width:80%;
+  margin:0 auto;
+  background: #ddd;
+  height:40px;
+  line-height: 40px;
+  font-size:1.6rem;
+  border:none;
+  text-align: center;
+  -webkit-border-radius:5px;
+  -ms-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+
+
+
+
+/*产品展示*/
+.haiwo-navbar { background:#0068b7; border:none; position:relative; border-radius:0; margin-bottom:0;}
+.haiwo-navbar .navbar-header {}
+.haiwo-navbar .navbar-header a{ color:#fff; font-size:16px !important;}
+.haiwo-navbar .navbar-header a img { width:20px; height:20px; display:inline-block; position:relative; top:-1px;}
+.haiwo-navbar .navbar-header a:hover,.haiwo-navbar .navbar-header a:active,.haiwo-navbar .navbar-header a:focus,.haiwo-navbar .navbar-header a:focus:active{color:#fff;}
+
+.haiwo-page-title { text-align:center; color:#fff; margin:0; height:50px; line-height:50px; font-size:20px;} 
+.haiwo-more { position:absolute; right:20px; top:12px;}
+.haiwo-more a {}
+.haiwo-more a img { width:20px; height:20px;}
+
+.haiwo-product-line { background:#f3f3f3; border-radius:8px; padding:3%; margin-bottom:3%;}
+.product-pic img{ width:100%; margin:0 auto; border:1px solid #dddddd; border-radius:5px;}
+.product-para { background:url(../images/productIcon.png) no-repeat left 3px; background-size:20px 20px; padding-left:25px;}
+
+.text-primary { color:#0068b7;}
+.text-333 { color:#333333;}
+.text-666 { color:#666666;}
+.text-999 { color:#999;}
+.text-7c7c7c { color:#7c7c7c;}
+.mgt0 { margin-top:0;}
+.mgt10{ margin-top:10px;}
+.mgt15 { margin-top:15px;}
+.mgt20{ margin-top:20px;}
+.mgt10pct { margin-top:10%;}
+
+.mgbtm0 { margin-bottom:0;}
+.mgbtm5 { margin-bottom:5px;}
+.mgbtm10 { margin-bottom:10px;}
+.mgbtm15 { margin-bottom:15px;}
+.mgbtm20 { margin-bottom:20px;}
+.mgbtm10pct { margin-bottom:10%;}
+.mgbtm20pct { margin-bottom:20%;}
+
+.pdr0 { padding-right:0;}
+.pdr15 { padding-right:15px;}
+
+.pdl15 { padding-left:15px;}
+
+.font-size-12{ font-size:12px;}
+.font-size-14{ font-size:14px;}
+.font-size-16{ font-size:16px;}
+.font-size-18{ font-size:18px;}
+.font-size-20{ font-size:20px;}
+.font-size-22{ font-size:22px;}
+.font-size-24{ font-size:24px;}
+
+/*产品配置*/
+.grayBg { background:#f4f3f1;}
+.haiwo-configure-top{ background:#fff; border-bottom:1px solid #eaeae8;}
+.select-btn { display:block; border:1px solid #dddddd; text-align:center; color:#000; margin-bottom:15px; padding-top:5px; padding-bottom:5px; background:url(../images/selectArrow.png) no-repeat right bottom; background-size:12px 12px;}
+.select-btn:hover,.select-btn:focus,.select-btn:active,.select-btn:active:focus{ color:#000; text-decoration:none; }
+
+.btn-primary { width:100%; background:#0068b7;}
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.btn-primary:active:focus{ background:#0068b7; outline:none;}
+
+.haiwo-configure-cnt { background:url(../images/peijianIcon.png) no-repeat left center; padding-left:25px; background-size:20px 20px;}
+
+.haiwo-configure-bottom { background:#fff; border-bottom:1px solid #eaeae8; border-top:1px solid #eaeae8;}
+.haiwo-configure-bottom a { display:block;}
+.haiwo-configure-bottom img { width:100%;}
+
+.haiwo-con-line { border-bottom:1px solid #ededed;}
+
+.popWrap { background:rgba(0,0,0,.3); position:fixed; top:0; left:0; bottom:0; right:0; display:none;}
+.shouqi { display:block; width:30px; height:30px; position:absolute; top:45%; left:15%;}
+.shouqi img { width:100%;}
+.popCtt { background:#fff; position:absolute; right:0; top:0; bottom:0; width:65%;}
+
+.selectBlock { border:1px solid #dddddd; padding-top:5px; padding-bottom:5px; margin-bottom:15px;}
+.selectActive { border:1px solid #0068b7; background:#0068b7; color:#fff;}
+
+
+/*产品家族*/
+.bdbtm0 { border-bottom:0;}
+
+/*会员注册*/
+.haiwo-logo img{ width:40%; margin:0 auto;}
+.userType { border-top:1px solid #dddddd; width:80%; margin:0 auto;}
+.userType h5{ background:#fff; position:relative; top:-12px; width:60%;margin:0 auto; margin-bottom:10%;}
+
+.userTypeIcon img{ width:60%; margin:0 auto;}
+
+.haiwo-form-control { box-shadow:none; border:1px solid #989595; border-radius:8px; height:44px; font-size:16px; padding-left:12%; margin-bottom:5%;}
+.haiwo-username { background:url(../images/username.png) no-repeat 4% center; background-size:22px 22px; }
+.haiwo-telphone { background:url(../images/telphone.png) no-repeat 4% center; background-size:22px 22px;}
+.haiwo-office {  background:url(../images/officename.png) no-repeat 4% center; background-size:22px 22px;}
+.haiwo-gonghao { background:url(../images/gonghao.png) no-repeat 4% center; background-size:22px 22px;}
+.haiwo-nianxian { background:url(../images/nianxian.png) no-repeat 4% center; background-size:22px 22px;}
+
+
+.radio-label { font-weight:normal; background:url(../images/radio.png) no-repeat left 3px; background-size:15px 15px; padding-left:18px; margin-right:15px;}
+.radio-label-on { background:url(../images/radio02.png) no-repeat left 3px; background-size:15px 15px;}
+
+/*全球网络 */
+.global-wrap { border:1px solid #0068b7; margin-top:30px; margin-bottom:30px;}
+.global-wrap h4 { position:relative; top:-22px; width:auto; margin-bottom:0;}
+.global-wrap h4 strong{ background:#fff; width:auto; padding-left:3%; padding-right:3%; margin-left:5%;}
+
+.global-wrap h5{ margin-left:8%; margin-top:0; margin-right:8%;}
+.text-warning { color:#f59409;}
+.global-para { margin-left:8%; margin-right:8%; text-align:justify; padding-bottom:10px; border-bottom:1px dashed #dddddd;}
+.global-para .email { display:block; text-decoration:underline; font-weight:bold; margin-top:5px;}
+
+/*服务网点查询*/
+.service-control { border-radius:0; border:1px solid #ddd; padding-left:0;}
+.haiwo-configure-cnt02 { background:url(../images/serviceIcon.png) no-repeat left center; padding-left:25px; background-size:20px 20px;}
+
+.telRow{ margin-bottom:5px;}
+.telRow div { margin-bottom:5px;}
+.telRow img{ width:20px; height:20px; margin-right:5px;}
+
+/*产品详情*/
+.detailPara img{ width:100%;}
+.detailTitle { border-left:3px solid #0068b7; padding-left:10px;}
+.detailTitle h4 { margin-bottom:5px;}
+.detailTitle p { text-transform:uppercase;}
+
+/*应用案例*/
+.bdtop0 { border-top:0;}
+.klb-nav-tabs { background:#fff; border:1px solid #0068b7; border-radius:3px; height:30px; line-height:30px; margin-bottom:10px; margin-top:20px;}
+.klb-nav-tabs li { width:33.33%;}
+.klb-nav-tabs li a{ border:none; border-right:1px solid #0068b7; height:28px; line-height:28px; color:#0068b7; font-size:12px; padding-top:0; padding-bottom:0; margin-top:0; margin-right:0; border-radius:0; text-align:center;}
+.klb-nav-tabs li:last-child a{ border-right:none;}
+.klb-nav-tabs>li.active>a, .klb-nav-tabs>li.active>a:focus, .klb-nav-tabs>li.active>a:hover { border:none; background:#0068b7;border-right:1px solid #0068b7; color:#fff;}
+.klb-nav-tabs li.active:last-child a,.klb-nav-tabs li.active:last-child a:focus,.klb-nav-tabs li.active:last-child a:hover{border-right:none;}
+
+.klb-nav-tabs>li>a:hover{ border:none; background:#8190b1;border-right:1px solid #8190b1; color:#fff;}
+
+.klb-nav-tabs>li>a:focus, .klb-nav-tabs>li>a:hover{ border:none; background:#8190b1;border-right:1px solid #8190b1; color:#fff;}
+
+
+/*常见问题*/
+.faq {}
+.faq .panel-default { border:none; border-bottom:1px solid #d6d3d3; box-shadow:none; border-radius:0;}
+.faq .panel-default>.panel-heading { background:none; background:url(../images/faq.jpg) no-repeat left center; background-size:20px 20px; padding-left:25px; padding-right:0; padding-top:15px; padding-bottom:15px;}
+.faq .panel-title>a { display:block;}
+.faq .panel-title>a:hover,.faq .panel-title>a:focus,.faq .panel-title>a:active,.faq .panel-title>a:active:focus { text-decoration:none;}
+.arrowDown img{ width:15px; height:15px;}
+
+.faqList{ margin-left:3%; margin-bottom:10px;}
+.faqList li{ padding-left:10px; margin-bottom:5px;}
+.faqDot { background:url(../images/dot.jpg) no-repeat left 8px; background-size:4px 4px;}
+
+
+/*服务报修*/
+.repairTop { background:#fff; border:1px solid #e8e9e8; border-radius:8px; height:55px; line-height:55px; margin-bottom:15px;}
+.repairTel { background:#0068b7; border-radius:8px 0 0 8px;}
+.repairTel img { width:60%;}
+.repairTelNum { color:#999; font-size:16px;}
+.repairTelNum strong{ color:#0068b7; font-size:18px; font-family:arial; margin-left:10px;}
+
+
+.haiwo-panel-primary { border-radius:8px; border:1px solid #e8e9e8; box-shadow:none;}
+.haiwo-panel-primary .panel-heading { background:#0068b7; font-size:18px; font-weight:bold; border-radius:8px 8px 0 0;}
+.haiwo-panel-primary .panel-heading img{ width:25px; height:25px; margin-right:10px; position:relative; top:-2px;}
+
+.haiwo-xinghao { background:url(../images/xinghao.png) no-repeat 4% center; background-size:22px 22px;}
+.haiwo-miaoshu { background:url(../images/miaoshu.png) no-repeat 4% 5px; background-size:22px 22px;}
+.haiwo-beizhu { background:url(../images/beizhu.png) no-repeat 4% 5px; background-size:22px 22px;}
+
+.uploadWrap {
+	
+	}
+input[type='file']{
+  background: none;
+  border: none;
+}
+.uploader{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.uploader input[type='file'] {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  background: transparent;
+  filter: alpha(opacity=0);
+}
+.uploader i.icon-plus{
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  line-height: 100px;
+  color: #999;
+}
+
+.imgshow{
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.imgshow div{
+  margin-bottom: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 2px;
+  margin-right: 10px;
+}
+.imgshow div span.remove{
+  position: absolute;
+  right: 2px;
+  background: #d95353;
+  color: #fff;
+  padding: 2px 5px;
+}
+.imgshow div img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.icon-plus {
+	background:url(../images/plus.png) no-repeat center;
+	width:100px;
+	height:100px;
+	}
+
+
+
+
+
+
